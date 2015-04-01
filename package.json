@@ -1,0 +1,47 @@
+{
+  "author": "PayPal <DL-PP-NODEJS-SDK@ebay.com> (https://developer.paypal.com/)",
+  "name": "paypal-rest-sdk",
+  "description": "SDK for PayPal REST APIs",
+  "version": "1.5.1",
+  "homepage": "https://github.com/paypal/PayPal-node-SDK",
+  "keywords": [
+    "paypal",
+    "rest",
+    "api",
+    "sdk"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paypal/PayPal-node-SDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paypal/PayPal-node-SDK/issues",
+    "email": "DL-PP-NODEJS-SDK@ebay.com"
+  },
+  "licenses": [
+    {
+      "type": "Custom",
+      "url": "https://github.com/paypal/PayPal-node-SDK/blob/master/LICENSE.txt"
+    }
+  ],
+  "engines": {
+    "node": ">= v0.6.0"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "buffer-crc32": "^0.2.3",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "blanket": "~1.1.5"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "lib",
+      "data-cover-never": "node_modules"
+    }
+  },
+
+  "readmeFilename": "README.md",
+  "man": "README.md"
+}
